@@ -1,19 +1,14 @@
 /* Google Fonts available
 font-family: 'Major Mono Display', monospace;
-font-family: 'Courgette', cursive;
 font-family: 'Playfair Display SC', serif;
 font-family: 'Josefin Slab', serif;*/
-
-
-
-   
 
 body{
     background: url('https://tinyurl.com/ycnjc84j');
     background-size: cover;
+    background-repeat: no-repeat;
 }
-
-.overlay{
+/*.overlay{
     position: absolute;
     min-height: 100%;
     min-width: 100%;
@@ -21,11 +16,10 @@ body{
     top: 0;
     background: rgba(244, 244, 244, 0.50);
    }
-
+*/
 h1{
     font-family: 'Major Mono Display', monospace;
     font-size: 45px;
-    text-emphasis: 20px;
     text-shadow: 0px 0px 6px rgba(255,255,255,0.9);
 
 }
@@ -54,18 +48,24 @@ ul{
     margin: 0;
     padding: 0;  
 }
-
-
-
-
   #item1 {
     width: 100px;
     height: 100px;
     text-align: center;
-    position: center;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
+
+@media (max-width: 900px) {
+
+.hide{
+    display: none;
+    }
+.greeting-name{
+    transform: translate: (-200%, -50%)
+}
+    
+  }
