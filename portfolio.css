@@ -1,0 +1,27 @@
+body{
+    font-family: 'Farsan', cursive;
+    font-size: 1.4em;
+}
+.proj3{
+    text-align: center;
+}
+.replaced-svg{
+    height: 20px;
+    width: 20px;
+}
+
+a:link {
+    color: red;
+  }
+  a:visited {
+    color:purple;
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+  .em_app{
+    width:30%;
+    border-radius:10px;
+border:5px solid black;
+  }
